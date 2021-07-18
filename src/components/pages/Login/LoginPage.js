@@ -10,6 +10,7 @@ const LoginPage = ({ login, isAuthenticated, alerts }) => {
     password: '',
   });
   const [showmsg, setShowmsg] = useState('d-none');
+  setShowmsg('d-none');
 
   const { email, password } = formData;
 
